@@ -3,55 +3,37 @@
  ### [YouTube Demonstration](https://youtu.be/g6GxHHIjTqs)
 
 <h2>Description</h2>
-This project is a personal achievement showcased on a webpage. The webpage includes several sections that provide an overview of kinetic typography, my journey, and insights. This webpage is built using HTML, CSS, and JavaScript. The HTML structure includes sections containing each relevant content and images. The CSS is used to style the webpage, including layout, typography, and visual effects. The AOS (Animate On Scroll) library is utilized to add fade-in animations to elements as the user scrolls. JavaScript is used to enhance the functionality of the webpage, including smooth scrolling to different sections and implementing the "back to top" button. External libraries, such as jQuery and AOS, are included through CDN (Content Delivery Network) links. The main.js file contains custom JavaScript code to handle specific interactions and event listeners on the webpage.
+The project is a game console implemented using an Arduino board, an LCD screen, and a keypad. It offers two games: a math game and an English game. The math game allows players to select the difficulty level and solve random arithmetic questions. The English game tests players' knowledge of English tenses and requires them to identify past, present, and past participle tenses. The console provides a user-friendly interface with a menu system and feedback through the LCD screen. Players can enter their answers using the keypad, and the system checks the correctness of their responses. The project aims to provide an interactive and educational gaming experience for users.
 <br />
 
+<h2>Summary</h2>
+
+- <b>The code initializes variables, sets up the LCD, keypad, and timer.</b>
+- <b>It defines helper functions for LCD display and button press sound.</b>
+- <b>The menu() function displays the game menu and handles level selection.</b>
+- <b>The math_game() function sets up the math game difficulty page.</b>
+- <b>The english_gameMenu() function displays the English game tutorial.</b>
+- <b>The code handles player input and checking of answers in player mode.</b>
+- <b>It includes a loop that listens for keypad input and performs game actions.</b>
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>HTML</b>
-- <b>CSS</b>
-- <b>JAVASCRIPT</b>
+- <b>C++</b>
+- <b>Arduino</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>WebApp walk-through:</h2>
+<h2>How it works!:</h2>
 
 <p align="center">
-Web Animation Scroll: <b>AOS & JS</b> <br/>
-<img src="https://media.giphy.com/media/qpcdbmBZeBclpHIM5A/giphy.gif" height="80%" width="80%" alt="AOS & JS"/>
+Main Menu: <br/>
+<img src="https://imgur.com/uHPNc4P.png" height="80%" width="80%" alt="Main Menu"/>
 <br />
 <br />
-Navigation & Arrow: <b>AOS & JS</b> <br/>
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGRodGNxYmdhYnAyZHR6aG84NnhkMjM0ZzhtMHRwMjhnM2N3dWVubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg0Yhbb3dCtZm1txKL/giphy.gif" height="80%" width="80%" alt="AOS & JS"/>
-<br />
-<br />
-Front of Webpage: <br/>
-<img src="https://imgur.com/vqPc0oc.png" height="80%" width="80%" alt="Front Of Webpage"/>
-<br />
-<br />
-Navigation Bar:  <br/>
-<img src="https://imgur.com/CM2Kwz2.png" height="80%" width="80%" alt="Nav Bar"/>
-<br />
-<br />
-Production Page: <br/>
-<img src="https://imgur.com/N9PgPOe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Journey Page:  <br/>
-<img src="https://imgur.com/dVAzxrT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Mobile Page: <br/>
+Instructions: <br/>
 <div align="center">
-<img src="https://imgur.com/shtvDgn.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/7DjBm1B.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/eKU2Cgj.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/fjwW8pE.png" height="25%" width="25%" alt="Instructions"/>
+<img src="https://imgur.com/cUZWuGT.png" height="25%" width="25%" alt="Instructions"/>
+<img src="https://imgur.com/iicQOil.png" height="25%" width="25%" alt="Instructions"/>
 </div>
-<br />
-<br />
 </p>
 <!--
  ```diff
