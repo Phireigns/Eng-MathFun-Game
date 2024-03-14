@@ -1,4 +1,4 @@
-<h1>Kinetic Typography Website</h1>
+<h1>Eng & Math Fun Game</h1>
 
  ### [YouTube Demonstration](https://youtu.be/g6GxHHIjTqs)
 
